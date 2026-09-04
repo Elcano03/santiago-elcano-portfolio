@@ -563,12 +563,19 @@ h1, h2, h3 { font-weight: 700; line-height: 1.2; }
 
 .skills-category--lang { grid-column: span 3; }
 .skills-category--nosql { grid-column: span 3; }
-.skills-category--tools { grid-column: span 6; }
+.skills-category--tools { grid-column: span 3; }
+.skills-category--git { grid-column: span 3; }
 
 .skills-category h3 {
   font-size: 1rem;
   color: var(--text);
   margin-bottom: 18px;
+}
+
+.skills-category--git p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
 }
 
 .skills-list {
@@ -771,7 +778,8 @@ h1, h2, h3 { font-weight: 700; line-height: 1.2; }
   .skills-bento { grid-template-columns: 1fr 1fr; }
   .skills-category--lang,
   .skills-category--nosql,
-  .skills-category--tools { grid-column: span 2; }
+  .skills-category--tools,
+  .skills-category--git { grid-column: span 2; }
 
   .contact-grid { grid-template-columns: 1fr; }
 }
@@ -821,7 +829,8 @@ h1, h2, h3 { font-weight: 700; line-height: 1.2; }
   .skills-bento { grid-template-columns: 1fr; }
   .skills-category--lang,
   .skills-category--nosql,
-  .skills-category--tools { grid-column: 1; }
+  .skills-category--tools,
+  .skills-category--git { grid-column: 1; }
 
   .projects-grid { grid-template-columns: 1fr; }
 
